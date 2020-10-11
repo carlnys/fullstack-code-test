@@ -1,3 +1,9 @@
+# Notes: 
+Regarding the Vert.x solution/critical issues I never actually do anything with the service_name or time_created values, but they're stored in the DB.
+
+For the additional tracks, I went with the Frontend/Web track. I addressed each bullet point but skipped adding a route handling put/patch requests.
+Furthermore, I went for a simple vanilla JS solution instead of using e.g. React since that felt a bit overkill. 
+
 # KRY code assignment
 
 One of our developers built a simple service poller.
