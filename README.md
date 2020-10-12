@@ -4,6 +4,9 @@ Regarding the Vert.x solution/critical issues I never actually do anything with 
 For the additional tracks, I went with the Frontend/Web track. I addressed each bullet point but skipped adding a route handling put/patch requests.
 Furthermore, I went for a simple vanilla JS solution instead of using e.g. React since that felt a bit overkill. 
 
+The database should have some preloaded services which can be seen in the frontend. All three cases of service statuses can be showcased ("OK", "UNKOWN" and "FAIL").
+Add a new service to briefly see the unkown state. (I increased to polling to once every five seconds, instead of once every minute to quickly see results.)
+
 # KRY code assignment
 
 One of our developers built a simple service poller.
